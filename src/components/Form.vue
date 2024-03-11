@@ -263,7 +263,7 @@ const getbilibilidatabylink = async (path, videoLink) => {
   var data = qs.stringify({
     'video_url': videoLink
   });
-  var url = `https://getbilibilidatabylink.1326906378.repl.co/${path}`
+  var url = `https://get-bilibili-data-backend.replit.app/${path}`
   let res;
 
   if (path === 'get_bilibili_data') {
